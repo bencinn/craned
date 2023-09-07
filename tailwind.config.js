@@ -2,11 +2,18 @@
 
 module.exports = {
   content: [
+<<<<<<< Updated upstream
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
     './stories/**/*.{js,ts,jsx,tsx}',
   ],
+=======
+    './stories//**/*.{ts,tsx}',
+    './shadcn/ui/*.tsx',
+    './app/**/*.{ts,tsx}',
+	],
+>>>>>>> Stashed changes
   theme: {
     extend: {
       colors: {
